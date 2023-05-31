@@ -1,0 +1,15 @@
+#README
+The script arbre.py contains 3 classes: BinaryTree, UPGMA and NJ. The script constants.py contains the constant 
+values necessary for the sequence alignment. The script Alignemnt contains class Alignment that performs the pairwase 
+alignment, UPGMA tree construction, multiple sequence alignemnt according to the frequency profile and construction 
+of the Neighbor-Joining tree based on the conserved positions. The script main.py contains the class Controller that 
+executes all the necessary functions for the alignment.
+#How to use
+To start the analysis with the output in the terminal: 
+python main.py -input *your input file*
+To start the analysis with the output saved in the file:
+python main.py -input *your input file* -output *your output file*
+
+#Additional files
+Example of output file can be found in output.txt
+Example of input file is opsines.fasta
